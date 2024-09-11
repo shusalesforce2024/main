@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SchesulingPolicyNew__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(TEXT(Priority),&apos;重大&apos;,1,&apos;高&apos;,2,&apos;中&apos;,3,&apos;低&apos;,4,null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>スケジュール優先度(新)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <availableInTouch>false</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>Lightning プラットフォームデフォルトページ - 認証が必要です</description>
+    <label>Unauthorized</label>
+    <packageVersions>
+        <majorNumber>246</majorNumber>
+        <minorNumber>0</minorNumber>
+        <namespace>FSL</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>55</minorNumber>
+        <namespace>sf_fieldservice</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>12</majorNumber>
+        <minorNumber>9</minorNumber>
+        <namespace>tspa</namespace>
+    </packageVersions>
+</ApexPage>
